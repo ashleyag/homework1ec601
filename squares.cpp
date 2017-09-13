@@ -1,3 +1,5 @@
+//This is the modified program from group 8 of EC 601
+
 // The "Square Detector" program.
 // It loads several images sequentially and tries to find squares in
 // each image
