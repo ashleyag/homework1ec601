@@ -168,7 +168,8 @@ int main(int argc, char** argv)
 
         findSquares(image, squares);
         drawSquares(image, squares);
-
+        
+        //Here it waits for ESC to exit.
         char c = (char)waitKey();
         if( c == 27 )
             break;
