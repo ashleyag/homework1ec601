@@ -1,5 +1,5 @@
 //This is the modified program from group 8 of EC 601
-
+//this is a commit 
 // The "Square Detector" program.
 // It loads several images sequentially and tries to find squares in
 // each image
@@ -171,7 +171,8 @@ int main(int argc, char** argv)
 
         findSquares(image, squares);
         drawSquares(image, squares);
-
+        
+        //Here it waits for ESC to exit.
         char c = (char)waitKey();
         if( c == 27 )
             break;
