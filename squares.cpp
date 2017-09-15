@@ -137,6 +137,8 @@ static void drawSquares( Mat& image, const vector<vector<Point> >& squares )
         int n = (int)squares[i].size();
         polylines(image, &p, &n, 1, true, Scalar(0,255,0), 3, LINE_AA);
         //polylines(image, &p, &n, 1, true, Scalar(0,0,255), 3, LINE_AA);
+        polylines(image, &p, &n, 1, true, Scalar(255,0,0), 3, LINE_AA);
+        //This will change the squares to blue.
     }
 
     imshow(wndname, image);
