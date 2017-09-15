@@ -174,6 +174,7 @@ int main(int argc, char** argv)
         
         //Here it waits for ESC to exit.
         char c = (char)waitKey();
+        //if(c ==' ') This can change the key from ESC to Space
         if( c == 27 )
             break;
     }
