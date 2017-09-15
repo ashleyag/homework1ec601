@@ -1,6 +1,8 @@
 # homework1ec601
 Team8
 
+Group Members: Honghao Zheng, Ashley Antony Gomez, Jiahao Zhao
+
 Description: We are building a square detecting project which can detect squares in a picture provided to it as an argument. 
 
 Instructions: 
